@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Jack Dorsey </title>
+       <link rel="stylesheet" href="css/style.css"/>
+       <link rel="shortcut icon" type="image/png" href="favicon4.ico">
+
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+ </head> 
+	
+<body>
+<!----- LINK BACK TO THE TUTORIAL--->
+
+
+<!----- HEADER START--->   
+<header id="header">
+<div class="content">
+<div id="logo"><a href=""> DORSEY</a></div>
+
+<nav id="nav">
+	<ul>
+		<li><a href="#home" class="active" title="Next Section" >Home</a></li>
+		<li><a href="#history" title="Next Section">History</a></li>
+		<li><a href="#role_models" title="Next Section">Role Models</a></li>
+		<li><a  href="#lessons" title="Next Section">Lessons</a></li>
+		<li><a href="#twitter" title="Next Section">Twitter</a></li>
+		<li><a href="#square" title="Next Section">Square</a></li>
+	</ul>
+</nav>
+</div>
+</header>	
+<!----- HEADER END--->   
+
+<!----- SLIDES START --->   	
+	<div id="home">
+            <h1>Jack Dorsey:</h1>
+		    <h2>The Man Behind the Tweet</h2>
+		    <br>
+		   <p> Click on the links above to learn more about Jack Dorsey and his companies! <p>
+    </div> 
+
+	<div id="history">
+		<div class="content" >
+		    <h3> History</h3>
+		    <p> Jack Dorsey was born in St. Louis, Missouri. Because he grew up in a big city, Dorsey quickly became interested in dispatch. He questioned the way taxi cab drivers' routes were programmed and became involved with computers. At the age of 15 Dorsey wrote dispatch software for cabs that is still used today. </p>
+		    <p> After graduating high school, Dorsey went on to  Missouri University of Science and Technology- but then transferred to New York University. Shortly after transferring, he decided to drop out of college and pursue other interests. Dorsey briefly considered becoming a mayor, but then decided to stick with the computer science route. He created his own dispatch company in California that could be accessed through the internet and instant messaging. It was only after he created the dispatch program that he branched out and created Twitter and Square, the companies that would make him a millionaire. Like many other computer science successes, dropping out of college was a smart move for Dorsey. </p>
+		</div> 
+    </div> 
+	
+	
+   <div id="role_models">
+   	<div class="content" >
+		       <h3>Role Models</h3>
+		       <p> When asked about his role models, Dorsey states that they change from day to day, but he lists Robert Irwin and Virginia Woolf as examples. Robin Irwin's constant questioning of the world around him helped Dorsey motivate himself. He also says he admires Woolf for her strength and confidence. </p>
+		</div> 
+    </div> 
+	
+	
+	<div id="lessons">
+		<div class="content">
+            <h3>Lessons </h3> 
+           <p> These are some of the lessons Jack Dorsey has learned while creating his companies: </p>
+           <br>
+<ol class="center"> 
+	<li>Learn how to properly manage your time; it will help you in the long run.</li>
+	<li>Take lessons from one experience and try to apply it to another.</li>
+	<li>"The power of knowing" - walk into meetings knowing what you want. </li>
+	<li> Technology is the closest we have to a global consciousness. </li>  
+	</ol>  
+		</div> 
+    </div> 
+	
+	
+	<div id="twitter">
+		<div class="content">
+		<h3>Twitter</h3> 
+		<p>Twitter, the popular social media site, is based on sending short messages to your followers. It lets people connect and interact from far away. Dorsey describes Twitter as way for people to have a voice in today's society. Keeping with this statement, Twitter has remained neutral on political issues. Dorsey wants the company to be as unbiased and transparent as possible. The customers, however, use Twitter to voice their opinion on every topical issue available. Because the site allows for freedom of speech, Twitter has very little tolerance for abuse. The policies and regulations of the company are very tightly controlled to make sure all of the users are safe and protected. </p>
+		<p>A tweet, or short message sent to your friends, can only be 140 characters long. This strange rule aslo relates back to Dorsey's interest in dispatch. In an SMS text, you can only input 160 characters. Twitter used the same principles when creating the company. They took out 20 characters for a username, and the rest were used for the message. Dorsey wanted to keep the messages short because it allows the real meaning of any message to be relayed simply and quickly. </p>
+ 
+<p> The name 'Twitter' was not the original name for the company. Dorsey wanted to name it 'Jitter' or 'Twitch' because it relayed the brevity and excitement of the site. Neither name was liked by everyone so they hit the dictionary and found 'Twitter'. Oddly enough, Twitter is a combination of jitter and twitch. </p>
+           
+		
+	</div> 
+    </div> 
+<div id="square">
+		<div class="content">
+		<h3>Square</h3> 
+		<p>Square is a way for small companies to accept credit cards. It is a small box that plugs into a phone or tablet and allows users to swipe and charge credit cards. It is basically a register than is free to download. The goal of Square is to make business transactions easier and level the playing field for common people. Square is a way for small companies to avoid dealing with large credit card corporations and to expand their business. Dorsey describes Square as " on par or better than a Walmart register". </p>
+
+<p>The 'register' of Square, a small white box, can be compared to a cassette tape reader. The magnetic strip on the back of a credit card can be translated into music. That music can then be translated into numbers. Square will read in the numbers and use them to charge the credit card.</p> 
+ 
+		 
+		</div> 
+	
+<!----- SLIDES END ----!>
+
+</body>
+</html>
